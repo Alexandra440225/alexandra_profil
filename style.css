@@ -1,0 +1,146 @@
+body {
+  background: rgb(248,248,248);
+  color: black;
+  margin: 0px;
+  font-size: 15px;
+  font-family: Helvetica;
+}
+
+h1 {
+  text-align: center;
+  font-family: impact;
+  color: white;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-family: Courier;
+  color: red;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: pink;
+}
+
+#banner {
+  text-align: center;
+  background-color: #FFB3B3;
+  background-size: cover;
+  padding: 25px;
+  color: black;
+}
+
+#banner 
+.photo_profil {
+  width: 150px;
+  border-radius: 100%;
+}
+
+.photo_profil {
+  border: 5px solid white;
+}
+
+
+#banner h1 {
+  font-size: 50px;
+  text-shadow: 3px 3px #A7A9A5;
+}
+
+#banner p {
+  opacity: 0.8;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: white;
+  color: #0B2F65;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 40px;
+}
+
+.btn:hover {
+  background-color: black;
+  opacity: 0.8;
+  border: 2px solid white;
+ }
+
+li {
+  display: inline;
+  margin: 0 10px;
+}
+
+ul {
+  padding-inline-start: 0px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.social-links {
+  padding-top: 60px;
+  margin-bottom: 30px;
+}
+.btn-email {
+  font-family: Helvetica;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: white;
+  color: #0B2F65;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.btn-email:hover {
+  background-color: black;
+  
+}
+.card {
+  text-align: center;
+  padding: 30px;
+    font-weight: lighter;
+}
+
+.cards{
+  margin: 10px auto;
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+
+#footer {
+  margin-top: 15px;
+  padding: 10px 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+/*les écrans de largeur inférieure à 992 pixels*/
+@media(max-width: 992px){
+  .cards{
+  width: 750px;
+  }
+}
+
+/*les écrans de largeur inférieure à 768 pixels*/
+@media(max-width: 768px){
+  .cards{
+  width: 90%;
+  grid-template-columns: 1fr;
+  }
+}
